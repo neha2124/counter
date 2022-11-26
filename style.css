@@ -1,0 +1,57 @@
+body{
+     /* Created with https://www.css-gradient.com */
+   /* Created with https://www.css-gradient.com */
+background-color: #21D6A7;
+background-color: -webkit-linear-gradient(top left, #21D6A7, #382872);
+background-color: -moz-linear-gradient(top left, #21D6A7, #382872);
+background-color: linear-gradient(to bottom right, #21D6A7, #382872);
+    color: white;
+    position: absolute;
+    overflow: hidden;
+}
+.wrapper{
+    position: relative;
+    /* margin-top: 50%; */
+    /* margin-right: 50%; */
+    top: 30vh;
+
+    left: 39vw;
+}
+h1{
+    font-size: 3rem;
+
+}
+.counter{
+    font-size:1.5em
+}
+.increment , .decrement{
+    padding: 10px;
+    border-radius: 10%;
+    border: none;
+    background-color:darkkhaki ;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow:  5px 10px 5px 0px rgba(0,0,0,0.65);;
+}
+.clear{
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius:10px ;
+    background-color: transparent;
+    cursor: pointer;
+    box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.65);
+}
+
+
+.decrement:hover{
+  transform: translateY(-10px);
+
+}
+.increment:hover {
+    transform: translateY(-10px);
+}
+.err{
+    color: red;
+    font-size: 1.3em;
+}
